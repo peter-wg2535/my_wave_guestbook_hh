@@ -3,11 +3,11 @@ async function main() {
     
 await xGetBalance()
 //await xWave("Test Wave")
-// listCleanedWaves=await xListAllWaves()
-// console.log("List all waves")
-// for (const wave of listCleanedWaves) {
-//   console.log(wave)
-// }
+listCleanedWaves=await xListAllWaves()
+console.log("List all waves")
+for (const wave of listCleanedWaves) {
+  console.log(wave)
+}
 
 //await xWithdraw()
 

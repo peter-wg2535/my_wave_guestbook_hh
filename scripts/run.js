@@ -2,7 +2,8 @@ const { xGetBalance, xMyFunc, xWave,xListAllWaves,xWithdraw }= require("./action
 async function main() {
     
 await xGetBalance()
-//await xWave("Test Wave")
+await xWave("Write#2 something at 06-8-2022 04:35 Thailand")
+
 listCleanedWaves=await xListAllWaves()
 console.log("List all waves")
 for (const wave of listCleanedWaves) {
